@@ -14,6 +14,7 @@ function grossSalaryCalculation (){
 
 function taxDeductions(grossSalary){
     
+
     if (grossSalary <= 24000){
         const tax = grossSalary * 0.1
         return `Tax: ${tax}`

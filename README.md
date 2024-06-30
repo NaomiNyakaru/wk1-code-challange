@@ -20,3 +20,19 @@ The demerit points are further use to determine licence status.
 If the demerits are above 12 the licence is suspended, otherwise the demerit points are displayed.
 
 *Challange3*
+The program calculates net salary.
+first we have a prompt that allows user input.
+Second we have the body made up of five functions:
+.Calculating gross salary
+    Gross salary is the basic salary and benefits. the parseFloat is used to convert input strings to numeric float values.
+.calculating tax deductions on gross salary
+    Tax deductions are done as per the different tax brackets.
+.Calculating nhif deduction on gross salary
+    nhif deduction is 2.5% of an employees gross salary 
+.Calculating nssf deductions on gross salary 
+    nssf deduction is 6% on an employees gross salary
+.Calculating net salary
+    finally, this is calculated by subtracting the tax,nssf and nhif on gross salary.
+
+Finally, we call the functions and also convert their string inputs to numeric values
+
